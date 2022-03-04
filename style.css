@@ -163,6 +163,9 @@ nav a:hover{
   padding: 10px;
   background: #FFABE1;
   border-radius: 10px;
+  border-size: 1px;
+  border-color: #FFABE1;
+  border-style: solid;
 }
 
 .aboutMeNavBar a:hover{
