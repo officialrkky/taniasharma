@@ -11,7 +11,7 @@ pink Light - #FFE6E6
 
 *{
   background-color: #cfcfc4;
-  color: #FFE6E6;
+  color: #161b1e;
   font-family: 'Sofia Pro', sans-serif;
 }
 
@@ -68,18 +68,18 @@ nav a{
   background: #A685E2;
   border-radius: 10px;
   border-size: 1px;
-  border-color: #EE1D52;
+  border-color: #FFABE1;
   border-style: solid;
   
 }
 
 nav a:hover{
-  color: #A685E2;
+  color: #FFE6E6;
   background: #EE1D52;
 }
 
 .activeNavBar{
-  color: #A685E2 ;
+  color: #FFE6E6 ;
   background: #EE1D52 !important;
 }
 
@@ -110,22 +110,22 @@ nav a:hover{
 }
 
 .projectsList a{
-  color: #69C9D0;
+  color: #A685E2;
   text-decoration: none;
   font-size:16px;
   padding: 10px;
-  background: #161b1e;
+  background: #A685E2;
   border-radius: 10px;
 }
 
 .projectsNavBar a:hover{
  color: #A685E2 !important;
- background: #69C9D0 !important;
+ background: #FFABE1 !important;
 }
 
 .activeProjects{
  color: #A685E2 !important;
- background: #69C9D0 !important;
+ background: #FFABE1 !important;
 }
 
 /* ABOUT ME NAVIGATION BAR */
@@ -292,7 +292,7 @@ background: #FFABE1;
 .contactInfo{
   padding: 10px;
   border-size: 1px;
-  border-color:#35858B;
+  border-color:#FFABE1;
   border-style: solid;
   border-radius: 10px;
 }
