@@ -123,12 +123,12 @@ nav a:hover{
 
 .projectsNavBar a:hover{
  color: #FFE6E6 !important;
- background: #A685E2 !important;
+ background-color: #A685E2 !important;
 }
 
 .activeProjects{
  color: #FFE6E6 !important;
- background: #A685E2 !important;
+ background-color: #A685E2 !important;
 }
 
 /* ABOUT ME NAVIGATION BAR */
@@ -167,12 +167,12 @@ nav a:hover{
 
 .aboutMeNavBar a:hover{
  color: #FFE6E6 !important;
- background: #A685E2 !important;
+ background-color: #A685E2 !important;
 }
 
 .activeAboutMe{
  color: #FFE6E6 !important;
- background: #A685E2 !important;
+ background-color: #A685E2 !important;
 }
 
 /* Header for all webpages */
