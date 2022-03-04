@@ -75,12 +75,12 @@ nav a{
 
 nav a:hover{
   color: #FFE6E6;
-  background: #EE1D52;
+  background: #FFABE1;
 }
 
 .activeNavBar{
   color: #FFE6E6 ;
-  background: #EE1D52 !important;
+  background: #FFABE1 !important;
 }
 
 /* PROJECTS NAVBAR */
@@ -154,7 +154,7 @@ nav a:hover{
 }
 
 .aboutMeList a{
-  color: white;
+  color: #FFE6E6;
   text-decoration: none;
   font-size:16px;
   padding: 10px;
@@ -163,12 +163,12 @@ nav a:hover{
 }
 
 .aboutMeNavBar a:hover{
- color: #A685E2 !important;
+ color: #FFE6E6 !important;
  background: #FFABE1 !important;
 }
 
 .activeAboutMe{
- color: #A685E2 !important;
+ color: #FFE6E6 !important;
  background: #FFABE1 !important;
 }
 
@@ -210,6 +210,7 @@ background: #FFABE1;
   font-size: 50px;
   font-weight: 500px;
   margin-bottom: 80px;
+ color: #FFE6E6;
 }
 
 .intro{
