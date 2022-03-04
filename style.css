@@ -110,21 +110,21 @@ nav a:hover{
 }
 
 .projectsList a{
-  color: #A685E2;
+  color: #FFE6E6;
   text-decoration: none;
   font-size:16px;
   padding: 10px;
-  background: #FFABE1;
+  background: #A685E2;
   border-radius: 10px;
 }
 
 .projectsNavBar a:hover{
- color: #A685E2 !important;
+ color: #FFE6E6 !important;
  background: #FFABE1 !important;
 }
 
 .activeProjects{
- color: #A685E2 !important;
+ color: #FFE6E6 !important;
  background: #FFABE1 !important;
 }
 
