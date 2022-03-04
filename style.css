@@ -1,18 +1,17 @@
 /* 
 black - #161b1e
 white - #FFFFFF
-grey - #222a2e
-neon blue - #69C9D0
-near blue (darker) - #3cb6bf
-neon pink - #EE1D52
-neon pink (darker) - #c90f38
+grey - #cfcfc4
+purple - #A685E2
+pink - #FFABE1
+pink Light - #FFE6E6
 */
 
 @import url('http://fonts.cdnfonts.com/css/sofia-pro');
 
 *{
-  background-color: #222a2e;
-  color: #FFFFFF;
+  background-color: #cfcfc4;
+  color: #FFE6E6;
   font-family: 'Sofia Pro', sans-serif;
 }
 
@@ -24,7 +23,7 @@ neon pink (darker) - #c90f38
 }
 
 header{
- background: #161b1e;
+ background: #A685E2;
  border-radius: 10px;
 }
 
@@ -35,38 +34,38 @@ header::after {
 }
 
 .navBarName{
- color: #FFFFFF;
+ color: #FFE6E6;
  float:left;
- background: #161b1e;
+ background: #A685E2;
 
 }
 
 nav{
-background: #161b1e;
+background: #A685E2;
   float:right;
 	position: relative;
 }
 
 nav ul{
-background: #161b1e;
+background: #A685E2;
   margin: 0px;
   padding: 0px;
   list-style: none;
 }
 
 nav li{
-background: #161b1e;
+background: #A685E2;
  display: inline-block;
  padding-top:20px;
  margin-left: 20px;
 }
 
 nav a{
-  color: #FFFFFF;
+  color: #FFE6E6;
   text-decoration: none;
   font-size:21px;
   padding: 10px;
-  background: #161b1e;
+  background: #A685E2;
   border-radius: 10px;
   border-size: 1px;
   border-color: #EE1D52;
@@ -75,12 +74,12 @@ nav a{
 }
 
 nav a:hover{
-  color: #161b1e;
+  color: #A685E2;
   background: #EE1D52;
 }
 
 .activeNavBar{
-  color: #161b1e ;
+  color: #A685E2 ;
   background: #EE1D52 !important;
 }
 
@@ -91,20 +90,20 @@ nav a:hover{
     margin-left: 0px;
     height: 100%;
     width: 300px;
-    background: #161b1e;
+    background: #A685E2;
     float: left;
     border-radius: 10px;
  
 }
 
 .projectsNavBar ul{
-  background: #161b1e;
+  background: #A685E2;
   list-style-type: none;
 
 }
 
 .projectsList li{
- background: #161b1e;
+ background: #A685E2;
  display: block;
  padding: 20px;
  
@@ -120,12 +119,12 @@ nav a:hover{
 }
 
 .projectsNavBar a:hover{
- color: #161b1e !important;
+ color: #A685E2 !important;
  background: #69C9D0 !important;
 }
 
 .activeProjects{
- color: #161b1e !important;
+ color: #A685E2 !important;
  background: #69C9D0 !important;
 }
 
@@ -135,20 +134,20 @@ nav a:hover{
     margin-left: 0px;
     height: 100%;
     width: 300px;
-    background: #161b1e;
+    background: #A685E2;
     float: left;
     border-radius: 10px;
  
 }
 
 .aboutMeNavBar ul{
-  background: #161b1e;
+  background: #A685E2;
   list-style-type: none;
 
 }
 
 .aboutMeList li{
- background: #161b1e;
+ background: #A685E2;
  display: block;
  padding: 20px;
  
@@ -159,18 +158,18 @@ nav a:hover{
   text-decoration: none;
   font-size:16px;
   padding: 10px;
-  background: #161b1e;
+  background: #FFABE1;
   border-radius: 10px;
 }
 
 .aboutMeNavBar a:hover{
- color: #161b1e !important;
- background: #69C9D0 !important;
+ color: #A685E2 !important;
+ background: #FFABE1 !important;
 }
 
 .activeAboutMe{
- color: #161b1e !important;
- background: #69C9D0 !important;
+ color: #A685E2 !important;
+ background: #FFABE1 !important;
 }
 
 /* Header for all webpages */
@@ -193,19 +192,19 @@ font-weight: 250 !important;
   text-align:center;
   margin: 80px 10px;
   padding: 20px;
-  background: #69C9D0;
+  background: #FFABE1;
   border-radius: 10px;
 }
 
 .greet h1{
-  background: #69C9D0;
+  background: #FFABE1;
   text-align:center;
   font-size: 100px;
   font-weight: 700px;
 }
 
 .greet h2{
-background: #69C9D0;
+background: #FFABE1;
   text-align:center;
   font-size: 50px;
   font-weight: 500px;
@@ -241,13 +240,13 @@ background: #69C9D0;
 }
 
 .projectsInfo a:hover{
-  color: #DA9B68;
+  color: #FFABE1;
 }
 
 #project1, #project2, #project3, #project4, #project5, #miniProjects{
   margin-left: 310px;
   border-size: 1px;
-  border-color:#35858B;
+  border-color:#FFABE1;
   border-style: solid;
   border-radius: 10px;
 }
@@ -268,14 +267,14 @@ background: #69C9D0;
 }
 
 .aboutMeInfo a:hover{
-  color: #DA9B68;
+  color: #FFABE1;
 }
 
 #information, #experience, #education, #honors_and_awards, #interest_and_hobbies, #skills{
   padding: 10px;
   margin-left: 310px;
   border-size: 1px;
-  border-color:#35858B;
+  border-color:#FFABE1;
   border-style: solid;
   border-radius: 10px;
 }
