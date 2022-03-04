@@ -1,0 +1,299 @@
+/* 
+black - #161b1e
+white - #FFFFFF
+grey - #222a2e
+neon blue - #69C9D0
+near blue (darker) - #3cb6bf
+neon pink - #EE1D52
+neon pink (darker) - #c90f38
+*/
+
+@import url('http://fonts.cdnfonts.com/css/sofia-pro');
+
+*{
+  background-color: #222a2e;
+  color: #FFFFFF;
+  font-family: 'Sofia Pro', sans-serif;
+}
+
+/* MAIN NAVIGATION BAR */
+
+.navBar{
+  width:80%;
+  margin: 0 auto;
+}
+
+header{
+ background: #161b1e;
+ border-radius: 10px;
+}
+
+header::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.navBarName{
+ color: #FFFFFF;
+ float:left;
+ background: #161b1e;
+
+}
+
+nav{
+background: #161b1e;
+  float:right;
+	position: relative;
+}
+
+nav ul{
+background: #161b1e;
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+}
+
+nav li{
+background: #161b1e;
+ display: inline-block;
+ padding-top:20px;
+ margin-left: 20px;
+}
+
+nav a{
+  color: #FFFFFF;
+  text-decoration: none;
+  font-size:21px;
+  padding: 10px;
+  background: #161b1e;
+  border-radius: 10px;
+  border-size: 1px;
+  border-color: #EE1D52;
+  border-style: solid;
+  
+}
+
+nav a:hover{
+  color: #161b1e;
+  background: #EE1D52;
+}
+
+.activeNavBar{
+  color: #161b1e ;
+  background: #EE1D52 !important;
+}
+
+/* PROJECTS NAVBAR */
+
+.projectsNavBar{
+    margin-top: 0px;
+    margin-left: 0px;
+    height: 100%;
+    width: 300px;
+    background: #161b1e;
+    float: left;
+    border-radius: 10px;
+ 
+}
+
+.projectsNavBar ul{
+  background: #161b1e;
+  list-style-type: none;
+
+}
+
+.projectsList li{
+ background: #161b1e;
+ display: block;
+ padding: 20px;
+ 
+}
+
+.projectsList a{
+  color: #69C9D0;
+  text-decoration: none;
+  font-size:16px;
+  padding: 10px;
+  background: #161b1e;
+  border-radius: 10px;
+}
+
+.projectsNavBar a:hover{
+ color: #161b1e !important;
+ background: #69C9D0 !important;
+}
+
+.activeProjects{
+ color: #161b1e !important;
+ background: #69C9D0 !important;
+}
+
+/* ABOUT ME NAVIGATION BAR */
+.aboutMeNavBar{
+    margin-top: 0px;
+    margin-left: 0px;
+    height: 100%;
+    width: 300px;
+    background: #161b1e;
+    float: left;
+    border-radius: 10px;
+ 
+}
+
+.aboutMeNavBar ul{
+  background: #161b1e;
+  list-style-type: none;
+
+}
+
+.aboutMeList li{
+ background: #161b1e;
+ display: block;
+ padding: 20px;
+ 
+}
+
+.aboutMeList a{
+  color: white;
+  text-decoration: none;
+  font-size:16px;
+  padding: 10px;
+  background: #161b1e;
+  border-radius: 10px;
+}
+
+.aboutMeNavBar a:hover{
+ color: #161b1e !important;
+ background: #69C9D0 !important;
+}
+
+.activeAboutMe{
+ color: #161b1e !important;
+ background: #69C9D0 !important;
+}
+
+/* Header for all webpages */
+.header{
+  text-align:center;
+  margin-top: 50px;
+}
+
+h2{
+font-weight: 300 !important;
+}
+
+h3{
+font-weight: 250 !important;
+}
+
+
+/* INDEX GREETING */
+.greet{
+  text-align:center;
+  margin: 80px 10px;
+  padding: 20px;
+  background: #69C9D0;
+  border-radius: 10px;
+}
+
+.greet h1{
+  background: #69C9D0;
+  text-align:center;
+  font-size: 100px;
+  font-weight: 700px;
+}
+
+.greet h2{
+background: #69C9D0;
+  text-align:center;
+  font-size: 50px;
+  font-weight: 500px;
+  margin-bottom: 80px;
+}
+
+.intro{
+  text-align: center;
+}
+
+.intro h3{
+  font-size: 25px;
+  font-weight: 300px;
+}
+
+
+
+/* Projects Display */
+.projectsInfo{
+ text-align: left; 
+}
+
+.projectsInfo h2{
+  margin: 10px;
+  padding: 10px;
+  font-size: 20px;
+}
+
+.projectsInfo h3{
+	margin: 10px;
+    padding: 10px;
+  font-size: 15px;
+}
+
+.projectsInfo a:hover{
+  color: #DA9B68;
+}
+
+#project1, #project2, #project3, #project4, #project5, #miniProjects{
+  margin-left: 310px;
+  border-size: 1px;
+  border-color:#35858B;
+  border-style: solid;
+  border-radius: 10px;
+}
+
+
+  /* About Me Display */
+  
+.aboutMeInfo{
+ text-align: left; 
+}
+
+.aboutMeInfo h2{
+  font-size: 20px;
+}
+
+.aboutMeInfo h3{
+  font-size: 15px;
+}
+
+.aboutMeInfo a:hover{
+  color: #DA9B68;
+}
+
+#information, #experience, #education, #honors_and_awards, #interest_and_hobbies, #skills{
+  padding: 10px;
+  margin-left: 310px;
+  border-size: 1px;
+  border-color:#35858B;
+  border-style: solid;
+  border-radius: 10px;
+}
+  
+
+/* Gallery Display*/
+.photos img{
+  text-align: center;
+  max-width:100%;
+  height:auto;
+}
+
+
+/* CONTACT DISPLAY */
+.contactInfo{
+  padding: 10px;
+  border-size: 1px;
+  border-color:#35858B;
+  border-style: solid;
+  border-radius: 10px;
+}
