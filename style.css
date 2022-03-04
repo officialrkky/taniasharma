@@ -201,6 +201,7 @@ font-weight: 250 !important;
   text-align:center;
   font-size: 100px;
   font-weight: 700px;
+   color: #FFE6E6;
 }
 
 .greet h2{
@@ -218,6 +219,7 @@ background: #FFABE1;
 .intro h3{
   font-size: 25px;
   font-weight: 300px;
+ color: #FFE6E6;
 }
 
 
